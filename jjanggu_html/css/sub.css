@@ -1,0 +1,412 @@
+@charset "utf=8";
+
+#firstsubbox {
+    width: 100%;
+    height: 6200px;
+}
+
+#subbox {
+    width: 100%;
+    height: 791px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+#sub {
+    width: 1260px;
+    height: 791px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+#contents {
+    width: 100%;
+    height: 730px;
+    position: relative;
+}
+
+#product {
+    width: 600px;
+    height: 450px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+
+#product > img {
+    width: 400px;
+    height: 400px;
+    margin: 10px 40px;
+}
+
+#product>a>img {
+    width: 50px;
+    height: 50px;
+    margin: 0 0 200px 0;
+}
+
+
+
+#productbox {
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 450px;
+    left: 60px;
+}
+
+#productbox>ul>li {
+    float: left;
+    margin: 0 10px 0 20px;
+}
+
+#productbox>ul>li:hover {
+    cursor: pointer;
+}
+
+#productbox>ul>li>img {
+    width: 120px;
+    height: 120px;
+}
+
+
+#context {
+    width: 450px;
+    height: 750px;
+    position: absolute;
+    right: 0px;
+    border-left: 1px solid rgb(224, 224, 224);
+}
+
+#contextbox {
+    width: 330px;
+    height: 450px;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+
+#bbox {
+    width: 330px;
+    height: 50px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+#pbox {
+    width: 330px;
+    height: 40px;
+    border-top: 1px solid rgb(254, 254, 254);
+
+}
+
+#pbox>p {
+    font-size: 12px;
+    color: gray;
+}
+
+#contextbox h5 {
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+table {
+    width: 100%;
+    border-top: 1px solid #000;
+    font-size: 12px;
+}
+
+td {
+    padding: 6px 15px;
+}
+
+
+
+td:first-child {
+    width: 100px;
+    height: 40px;
+}
+
+
+button {
+    margin: 5px 0;
+    cursor: pointer;
+    display: block;
+    font-size: 11px;
+}
+
+
+
+button:first-of-type {
+    width: 330px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 1px solid #000;
+}
+
+button:nth-of-type(2) {
+    width: 330px;
+    padding: 10px 5px;
+    margin: 5px 0;
+    background-color: rgb(194, 194, 194);
+    color: #000;
+    border: 1px solid rgb(194, 194, 194);
+}
+
+button:nth-of-type(3) {
+    width: 330px;
+    padding: 10px 5px;
+    margin: 5px 0;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid rgb(194, 194, 194);
+}
+
+
+/*form*/
+
+#formbox {
+    width: 330px;
+    height: 50px;
+}
+
+#formbox>h5 {
+    font-size: 12px;
+    margin: 25px 0 0 0;
+}
+
+select {
+    width: 60px;
+    height: 20px;
+    float: left;
+    margin: 5px 0 0 0px;
+    font-family: "돋움";
+    font-size: 13px;
+    color: #666;
+    border: 1px solid #eee;
+    padding: 0px 0 0 10px;
+}
+
+#productdetail {
+    width: 1260px;
+    height: 5450px;
+    margin: 0 auto;
+}
+
+#detailsection {
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+#detailsection>ul {
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+#detailsection>ul>li {
+    display: inline;
+    margin: 10px;
+    color: gray;
+}
+
+#detailsection>ul>li>a {
+    text-decoration: none;
+    color: gray;
+}
+
+#detailsection>ul>li>a:hover {
+    color: #000;
+}
+
+#productdetail>.detailbox {
+    width: 700px;
+    height: 700px;
+    float: left;
+    margin: 100px 0 10px 250px;
+}
+
+#productdetail>.detailbox>img {
+    width: 100%;
+    height: 100%;
+}
+
+#productdetail>.detailbox>p {
+    text-align: left;
+    margin: 30px 0 0 0;
+    font-size: 17px;
+    text-align: center;
+}
+
+#packagingbox {
+    width: 700px;
+    height: 700px;
+    float: left;
+    margin: 400px 0 0 250px;
+}
+
+#packagingbox>img {
+    width: 100%;
+    height: 100%;
+}
+
+#packagingbox>p {
+    text-align: left;
+    margin: 30px 0 0 0;
+    font-size: 17px;
+    text-align: center;
+}
+
+#sendbox {
+    width: 700px;
+    height: 400px;
+    float: left;
+    margin: 300px 0 0 250px;
+}
+
+#sendbox>img {
+    width: 100%;
+    height: 100%;
+}
+
+#sendbox>p {
+    font-size: 14px;
+    text-align: center;
+    margin: 15px 0 0 0;
+}
+
+#firstmessage {
+    width: 700px;
+    height: 300px;
+    float: left;
+    margin: 100px 0 0 250px;
+    border-top: 1px solid rgb(224, 224, 224);
+}
+
+#secondmessage {
+    width: 700px;
+    height: 350px;
+    float: left;
+    margin: 20px 0 0 250px;
+    border-top: 1px solid rgb(224, 224, 224);
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+#thirdmessage {
+    width: 700px;
+    height: 300px;
+    float: left;
+    margin: 0 0 0 250px;
+}
+
+#firstmessage>.amessage {
+    width: 150px;
+    height: 150px;
+    float: left;
+    display: block;
+    margin: 110px 0 0 0;
+}
+
+#firstmessage>.amessage>img {
+    width: 100px;
+    height: 100px;
+}
+
+#secondmessage>.amessage {
+    width: 150px;
+    height: 150px;
+    float: left;
+    display: block;
+    margin: 110px 0 0 0;
+}
+
+#secondmessage>.amessage>img {
+    width: 100px;
+    height: 100px;
+}
+
+#thirdmessage>.amessage {
+    width: 150px;
+    height: 150px;
+    float: left;
+    display: block;
+    margin: 90px 0 0 0;
+}
+
+#thirdmessage>.amessage>img {
+    width: 100px;
+    height: 100px;
+}
+
+
+#bmessage {
+    width: 500px;
+    height: 300px;
+    float: right;
+    margin: 30px 0 0 0;
+}
+
+#bmessage>h3 {
+    font-weight: 100;
+    margin: 30px 0 0 0;
+    color: gray;
+}
+
+#bmessage>h5 {
+    font-weight: 100;
+    font-size: 30px;
+    color: rgb(224, 224, 224);
+    padding: 10px 0;
+}
+
+#bmessage>ul {
+    margin: 10px;
+}
+
+#bmessage>ul>li {
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+
+
+#busmessage {
+    width: 500px;
+    height: 300px;
+    float: right;
+    margin: 30px 0 0 0;
+}
+
+#busmessage>h4 {
+    font-size: 16px;
+    font-weight: 100px;
+    color: gray;
+}
+
+#busmessage>ul {
+    margin: 20px 0 0 0;
+}
+
+#busmessage>ul>li {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+#infomessage {
+    width: 500px;
+    height: 250px;
+    float: right;
+    margin: 30px 0 0 0;
+}
+
+#infomessage>h1 {
+    font-size: 16px;
+    color: gray;
+    margin: 30px 0 0 0;
+}
+
+#infomessage>ul>li {
+    font-size: 12px;
+    margin: 10px 0;
+}
